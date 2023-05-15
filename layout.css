@@ -1,5 +1,13 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+
 .nav ul{
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
 }
 
 a{
