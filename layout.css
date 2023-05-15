@@ -1,6 +1,7 @@
 .nav{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .nav ul{
@@ -16,4 +17,9 @@ a{
 
 .logo{
     height: 80px;
+}
+
+.nav_left ul{
+display: flex;
+flex-direction: row;
 }
