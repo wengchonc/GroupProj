@@ -1,7 +1,16 @@
+:root{
+    --black:#000000;
+    --lake-blue:#8BA4A6;
+    --lighter-lake-blue:#BCCBCC;
+    --light-yellow:#ECE3CC;
+    --red:#D62C2C;
+    --white:#FFFFFF;
+}
+
 .nav{
-    background-color: #8BA4A6;
+    background-color: var(--lake-blue);
 }
 
 .nav a{
-    color: black;
+    color: var(--black);
 }
