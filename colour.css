@@ -15,3 +15,14 @@
     color: var(--black);
 }
 
+.src_bt{
+    background-color: var(--lighter-lake-blue);
+}
+
+.src_bar{
+    background-color: var(--lighter-lake-blue);
+}
+
+.search-container{
+    background-color: var(--lighter-lake-blue);
+}

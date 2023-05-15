@@ -22,4 +22,16 @@ a{
 .nav_left ul{
 display: flex;
 flex-direction: row;
+align-items: center;
 }
+
+.src_bt{
+    text-decoration: none;
+    border: none;
+}
+
+.src_bar{
+    text-decoration: none;
+    border: none;
+}
+
