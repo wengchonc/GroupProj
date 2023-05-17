@@ -14,30 +14,3 @@
 .nav a{
     color: var(--black);
 }
-
-.search-container{
-    display: flex;
-    justify-content:center;
-    margin-top: 20px;
-}
-
-.search-container input[type=text] {
-    background-color: var(--lighter-lake-blue);
-    padding: 10px;
-    font-size: 17px;
-    border: 2px solid #ccc;
-    border-radius: 5px 0 0 5px;
-    width: 50%;
-    outline: none;
-    background-color: #f1f1f1;
-  }
-
-  .search-container button {
-    padding: 10px;
-    border: none;
-    font-size: 17px;
-    background: #ffc107;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 0 5px 5px 0;
-  }
