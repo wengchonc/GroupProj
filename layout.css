@@ -23,7 +23,7 @@
 
 .nav-list {
     list-style-type: none;
-    margin-left: auto;
+    margin-left: 50px;
     padding: 0;
     display: flex;
     justify-content: center;
