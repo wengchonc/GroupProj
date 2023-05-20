@@ -55,6 +55,9 @@ align-items: center;
     align-items:mormal;
 }
 
+.search-bar{
+    position: relative;
+}
 .search-container input[type=text] {
     background-color: var(--lighter-lake-blue);
     padding: 5px;
@@ -70,8 +73,8 @@ align-items: center;
     padding: 10px;
     border: none;
     font-size: 17px;
-    background: #ECE3CC;
-    color: #fff;
+    background: #f1f1f1;
+    color: black;
     cursor: pointer;
     border-radius: 0 5px 5px 0;
   }
