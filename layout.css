@@ -52,7 +52,7 @@ align-items: center;
     display: flex;
     justify-content:center;
     margin-left: auto;
-    align-items:mormal;
+    align-items: normal;
 }
 
 .search-bar{
@@ -83,4 +83,3 @@ align-items: center;
     margin: 0;
     padding: 0;
   }
-
