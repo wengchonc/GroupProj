@@ -66,20 +66,17 @@ align-items: center;
 .search-container input[type=text] {
     background-color: var(--lighter-lake-blue);
     padding: 5px;
-    font-size: 17px;
     border: none;
     border-radius: 5px 0 0 5px;
     width: 250px;
     outline: none;
-    background-color: #f1f1f1;
+    background-color: var(--lighter-lake-blue);
   }
 
   .search-container button {
     padding: 10px;
     border: none;
-    font-size: 16px;
-    background: #f1f1f1;
-    color: black;
+    background: var(--lighter-lake-blue);
     cursor: pointer;
     border-radius: 0 5px 5px 0;
   }
@@ -91,7 +88,7 @@ align-items: center;
   }
 
   .banner {
-    background-color: #ECE3CC; 
+    background-color: var(--light-yellow); 
     padding: 10px;
     text-align: center;
     height: 40px;
@@ -99,10 +96,7 @@ align-items: center;
   }
 
   .banner h1 {
-    font-size: 25px;
-    font-family: "Futura PT", serif;
     text-align: center;
     margin: auto;
-    color: #707070;
   }
 
