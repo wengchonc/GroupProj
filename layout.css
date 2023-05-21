@@ -123,7 +123,6 @@ align-items: center;
     overflow: scroll;
     display: flex;
     flex-direction: row;
-    scroll-behavior: auto;
  }
  .poster{
  }
