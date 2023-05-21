@@ -120,9 +120,28 @@ align-items: center;
   }
 
  .poster-container{
-    overflow: scroll;
-    display: flex;
-    flex-direction: row;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    animation: bannermove 30s linear infinite;
+    font-size: 0;
  }
- .poster{
+
+ 
+
+ @keyframes bannermove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
+  }
+
+  .poster-container:hover {
+    overflow: auto;
+ }
+ 
+ .poster-container:hover{
+    animation-play-state:paused;
  }
