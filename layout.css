@@ -83,18 +83,20 @@ align-items: center;
 
 .search-recom{
     opacity: 0;
-    width: 380px;
+    width: 340px;
     height: 0px;
     background-color: var(--lake-blue);
     transition: all 0.5s ease;
     position: absolute;
+    top: 100px;
 }
 
 .search-container:hover .search-recom{
-    opacity: 0.8;
-    width: 380px;
+    opacity: 1;
+    width: 340px;
     height: 130px;
     transition: all 0.5s ease;
+    top: 100px;
 }
 
 
@@ -121,6 +123,7 @@ align-items: center;
     overflow: scroll;
     display: flex;
     flex-direction: row;
+    scroll-behavior: auto;
  }
  .poster{
  }
