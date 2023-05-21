@@ -81,6 +81,23 @@ align-items: center;
     border-radius: 0 5px 5px 0;
   }
 
+.search-recom{
+    opacity: 0;
+    width: 380px;
+    height: 0px;
+    background-color: var(--lake-blue);
+    transition: all 0.5s ease;
+    position: absolute;
+}
+
+.search-container:hover .search-recom{
+    opacity: 0.8;
+    width: 380px;
+    height: 130px;
+    transition: all 0.5s ease;
+}
+
+
   body {
     margin: 0;
     padding: 0;
@@ -100,3 +117,10 @@ align-items: center;
     margin: auto;
   }
 
+ .poster-container{
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+ }
+ .poster{
+ }

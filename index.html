@@ -25,8 +25,10 @@
         <div class="nav_left">
             <ul>
                 <li><div class="search-container">
-        <input type="text" placeholder="Search...">
+                        <input type="text" placeholder="Search...">
         <button type="submit"><i class="fa fa-search"></i></button>
+        <div class="search-recom">
+        </div>
     </div></li>
                 <li><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></li>
             </ul>
@@ -38,8 +40,8 @@
       </div>
 
       <div class="poster-container">
-        <div class="poster" onclick="window.location.href='page1.html'">
-          <img src="poster_1_image.png" alt="Poster 1">
+        <div class="poster" onclick="bannerChange">
+          <img src="poster_1_image.png" alt="Poster 1" class="poster-img" id="poster1" >
         </div>
         <div class="poster" onclick="window.location.href='page2.html'">
           <img src="poster2_png.png" alt="Poster 2">
