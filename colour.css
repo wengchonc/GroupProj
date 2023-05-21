@@ -6,11 +6,3 @@
     --red:#D62C2C;
     --white:#FFFFFF;
 }
-
-.nav{
-    background-color: var(--lake-blue);
-}
-
-.nav a{
-    color: var(--black);
-}
