@@ -140,6 +140,7 @@ align-items: center;
 
   .poster-container:hover {
     overflow: auto;
+    cursor: pointer;
  }
  
  .poster-container:hover{
