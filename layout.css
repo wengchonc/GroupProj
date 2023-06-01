@@ -93,7 +93,7 @@ align-items: center;
     top: 100px;
 }
 
-header {
+.header1 {
     background-color: var(--light-yellow); 
     padding: 10px;
     text-align: center;
@@ -101,19 +101,28 @@ header {
     font-style:oblique;
   }
 
-header h1 {
+.header1 h1 {
     text-align: center;
     margin: auto;
+    font-size: 25px;
+    font-family: "Futura PT", serif;
+    color: var(--grey);
   }
 
  .poster-container{
-    overflow: hidden;
-    position: absolute;
+    position: relative;
     white-space: nowrap;
     animation: bannermove 30s linear infinite;
     font-size: 0;
+    width: 100%;
  }
 
+ .poster-container img {
+  display: inline-block; 
+  max-width: 100%; 
+  height: auto; 
+  vertical-align: top; 
+}
  
 
  @keyframes bannermove {
@@ -124,12 +133,23 @@ header h1 {
         transform: translate(-50%, 0);
     }
   }
-
-  .poster-container:hover {
-    overflow: auto;
-    cursor: pointer;
- }
  
  .poster-container:hover{
     animation-play-state:paused;
  }
+
+ .header2 {
+  background-color: var(--light-yellow); 
+  padding: 10px;
+  text-align: center;
+  height: 40px;
+  font-style:oblique;
+ }
+
+ .header2 h1 {
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  font-family: "Futura PT", serif;
+  color: var(--grey);
+}
