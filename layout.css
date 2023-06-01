@@ -1,7 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:content-box;
+}
+
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 nav{
@@ -162,3 +169,18 @@ align-items: center;
   font-family: "Futura PT", serif;
   color: var(--grey);
 }
+
+/* individual product */
+.rectangle-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.rectangle {
+  width: 350px;
+  height: 120px;
+  background-color:#BCCBCC;
+  border-radius: 10px;
+}
+
