@@ -93,7 +93,7 @@ align-items: center;
     top: 100px;
 }
 
-  .banner {
+header {
     background-color: var(--light-yellow); 
     padding: 10px;
     text-align: center;
@@ -101,7 +101,7 @@ align-items: center;
     font-style:oblique;
   }
 
-  .banner h1 {
+header h1 {
     text-align: center;
     margin: auto;
   }

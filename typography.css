@@ -20,7 +20,7 @@ nav a{
     color: var(--black);
   }
 
-  .banner h1 {
+header h1 {
     font-size: 25px;
     font-family: "Futura PT", serif;
     color: var(--grey);
