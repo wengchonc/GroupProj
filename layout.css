@@ -184,3 +184,10 @@ align-items: center;
   border-radius: 10px;
 }
 
+.inner-square{
+  width: 90px; 
+  height: 90px; 
+  background-color: white;
+  border-radius: 10px;
+  margin: 15px;
+}
