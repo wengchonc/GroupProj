@@ -115,6 +115,7 @@ align-items: center;
     animation: bannermove 30s linear infinite;
     font-size: 0;
     width: 100%;
+    cursor: pointer;
  }
 
  .poster-container img {
