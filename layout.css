@@ -111,7 +111,7 @@ align-items: center;
  .poster-container{
     position: relative;
     white-space: nowrap;
-    animation: bannermove 30s linear infinite;
+    animation: bannermove 5s linear infinite;
     font-size: 0;
     width: 100%;
     cursor: pointer;
