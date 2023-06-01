@@ -98,7 +98,6 @@ align-items: center;
     padding: 10px;
     text-align: center;
     height: 40px;
-    font-style:oblique;
   }
 
 .header1 h1 {
@@ -123,8 +122,17 @@ align-items: center;
   max-width: 100%; 
   height: auto; 
   vertical-align: top; 
+  transition: transform 0.3s ease;
+  object-fit: contain;
 }
  
+.poster-container img:hover {
+  transform: scale(1.1);
+}
+
+.poster-container img:active {
+  transform: scale(1);
+}
 
  @keyframes bannermove {
     0% {
@@ -139,15 +147,15 @@ align-items: center;
     animation-play-state:paused;
  }
 
- .header2 {
+.header2 {
   background-color: var(--light-yellow); 
   padding: 10px;
   text-align: center;
   height: 40px;
-  font-style:oblique;
+
  }
 
- .header2 h1 {
+.header2 h1 {
   text-align: center;
   margin: auto;
   font-size: 25px;
