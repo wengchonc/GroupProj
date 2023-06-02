@@ -211,6 +211,7 @@ align-items: center;
 }
 
 .rectangle span{
+  font-family: "Futura PT", sans-serif;
   font-size: 18px;
   font-weight: bold;
   flex-grow: 1;
@@ -254,4 +255,42 @@ align-items: center;
   background-image: url('photo 8.png');
 }
 
+/* big rectangles */
+.sub-categories-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
 
+.sub-categories {
+  position: relative;
+  width: 450px;
+  height: 220px;
+  background-color: #BCCBCC;
+  border-radius: 0;
+}
+
+.sub-categories .inner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.sub-categories span {
+  color: white;
+  font-family: "Futura PT", serif;
+  font-size: 20px;
+}
+
+.first-sub-categories {
+  background-color: #F44336;
+}
+
+.second-sub-categories {
+  background-color: #4CAF50;
+}
+
+.third-sub-categories {
+  background-color: #2196F3;
+}
