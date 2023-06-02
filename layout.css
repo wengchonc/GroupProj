@@ -11,6 +11,10 @@ body {
 }
 
 nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,6 +22,7 @@ nav{
     margin:auto;
     padding: 10px;
     background-color: var(--lake-blue);
+    z-index: 9999;
 }
 
 nav a{
@@ -104,6 +109,7 @@ align-items: center;
     padding: 10px;
     text-align: center;
     height: 40px;
+    padding-top: 120px;
   }
 
 .header1 h1 {
@@ -258,40 +264,46 @@ align-items: center;
 /* big rectangles */
 .sub-categories-container {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   margin: 20px 0;
+  align-items: center;
 }
 
 .sub-categories {
   position: relative;
   width: 450px;
   height: 220px;
-  background-color: #BCCBCC;
-  border-radius: 0;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .sub-categories .inner-content {
+  position: relative;
+  top: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   height: 100%;
-}
-
-.sub-categories span {
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Futura PT", sans-serif;
-  font-size: 50px;
-  font-weight:600;
+  font-size: 45px;
+  font-weight:530;
+  background-color: transparent;
+  z-index: 1;
 }
 
-.first-sub-categories {
-  background-color: #F44336;
+.sub-categories .inner-content span {
+  position: relative;
+  z-index: 1;
 }
 
-.second-sub-categories {
-  background-color: #4CAF50;
-}
-
-.third-sub-categories {
-  background-color: #2196F3;
+.sub-categories img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
