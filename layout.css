@@ -279,8 +279,9 @@ align-items: center;
 
 .sub-categories span {
   color: white;
-  font-family: "Futura PT", serif;
-  font-size: 20px;
+  font-family: "Futura PT", sans-serif;
+  font-size: 50px;
+  font-weight:600;
 }
 
 .first-sub-categories {
