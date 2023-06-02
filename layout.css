@@ -258,7 +258,7 @@ align-items: center;
 /* big rectangles */
 .sub-categories-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
   margin: 20px 0;
 }
 
