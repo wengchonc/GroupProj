@@ -1,13 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing:content-box;
 }
 
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-x:hidden;
   overflow-y: auto;
 }
 
@@ -178,16 +177,81 @@ align-items: center;
 }
 
 .rectangle {
+  position: relative;
   width: 350px;
   height: 120px;
-  background-color:#BCCBCC;
+  background-color: #BCCBCC;
   border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
 }
 
-.inner-square{
-  width: 90px; 
-  height: 90px; 
+.rectangle-container a {
+  color: black;
+}
+
+.inner-content{
+  display: flex;
+  align-items: center;
+}
+.inner-square {
+  width: 90px;
+  height: 90px;
   background-color: white;
   border-radius: 10px;
-  margin: 15px;
+  margin-right: 15px;
+  flex-shrink: 0;
 }
+
+.inner-square img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.rectangle span{
+  font-size: 18px;
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.rectangle-container .rectangle .inner-square {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rectangle.first-rectangle .inner-square {
+  background-image: url('photo 1.jpg');
+}
+
+.rectangle.second-rectangle .inner-square {
+  background-image: url('photo 2.png');
+}
+
+.rectangle.third-rectangle .inner-square {
+  background-image: url('photo 3.png');
+}
+
+.rectangle.fourth-rectangle .inner-square {
+  background-image: url('photo 4.png');
+}
+
+.rectangle.fifth-rectangle .inner-square {
+  background-image: url('photo 5.png');
+}
+
+.rectangle.sixth-rectangle .inner-square {
+  background-image: url('photo 6.png');
+}
+
+.rectangle.seventh-rectangle .inner-square {
+  background-image: url('photo 7.png');
+}
+
+.rectangle.eighth-rectangle .inner-square {
+  background-image: url('photo 8.png');
+}
+
+
