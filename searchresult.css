@@ -189,6 +189,9 @@ h3{
 }
 
 .header3 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: var(--lake-blue); 
   padding: 10px;
   text-align: center;
