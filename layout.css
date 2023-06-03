@@ -25,31 +25,60 @@ nav{
     z-index: 9999;
 }
 
+.logo{
+  height: 80px;
+}
+
 nav a{
     color: var(--black);
 }
 
 nav ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-    font-size: smaller;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  font-size: smaller;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
-  nav li{
+/* hamburger menu */
+nav .menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+nav .line {
+  width: 25px;
+  height: 2px;
+  background-color: #000000;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 1200px) {
+  nav .menu-icon {
+    display:flex;
+    flex-direction: column;
+  }
+
+  nav ul{
+    display: none;
+  }
+
+  nav ul.show{
+    display: block;
+  }
+}
+
+nav li{
     margin: 0 10px;
   }
 
 a{
     text-decoration: none;
-}
-
-.logo{
-    height: 80px;
 }
 
 .nav_left ul{
