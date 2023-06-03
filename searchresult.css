@@ -8,7 +8,6 @@ body {
   padding: 0;
   overflow-x:hidden;
   overflow-y: auto;
-  padding-top: 80px
 }
 
 nav{
@@ -172,9 +171,19 @@ align-items: center;
 
 p{
   display: flex;
-  font-size: 25px;
+  font-size: 35px;
   font-family: "Futura PT", serif;
-  color: var(--grey);
-  padding-left: 120px;
+  color: rgb(0, 0, 0);
   padding-top: 90px;
+  justify-content: center;
+  padding-top: 160px;
+}
+
+h3{
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  font-family: "Futura PT", serif;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
 }
