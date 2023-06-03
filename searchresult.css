@@ -192,7 +192,7 @@ h3{
   position: relative;
   bottom: 0;
   width: 100%;
-  background-color: var(--lake-blue); 
+  background-color: var(--light-yellow); 
   padding: 10px;
   text-align: center;
   height: 40px;
@@ -207,5 +207,5 @@ h3{
   font-size: 18px;
   font-family: "Futura PT", serif;
   font-weight: 400;
-  color: white;
+  color: black;
 }
