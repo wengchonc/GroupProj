@@ -177,6 +177,7 @@ align-items: center;
     text-align: center;
     height: 40px;
     padding-top: 120px;
+    width: 100%;
   }
 
 .header1 h1 {
@@ -231,6 +232,7 @@ align-items: center;
   padding: 10px;
   text-align: center;
   height: 40px;
+  width: 100%;
   padding-top: 15px;
  }
 
