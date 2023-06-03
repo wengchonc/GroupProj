@@ -187,3 +187,22 @@ h3{
   color: rgb(0, 0, 0);
   font-weight: 500;
 }
+
+.header3 {
+  background-color: var(--lake-blue); 
+  padding: 10px;
+  text-align: center;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.header3 h1 {
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-size: 18px;
+  font-family: "Futura PT", serif;
+  font-weight: 400;
+  color: white;
+}
