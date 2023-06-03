@@ -37,10 +37,10 @@ body {
   }
 
   .square h5{
-    margin-left: -300px;
+    margin-left: -230px;
     margin-top: -300px;
     font-family: "Futura PT", sans-serif;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
   }
 
@@ -92,4 +92,56 @@ body {
   
   .circle-text .circle:last-child {
     margin-right: 0; /* Remove the right margin of the last circle */
+  }
+
+  .quantity-box {
+    position: static;
+    margin-top: 400px;
+    margin-left: 200px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    border: none;
+  }
+  
+  .quantity-input {
+    width: 80px;
+    height: 40px;
+    padding: 5px;
+    font-size: 25px;
+    border: none;
+  }
+  
+  .add-to-cart-button {
+    margin-top: 80px;
+    width: 400px;
+    height: 50px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #429445;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color:#55be59;
+  }
+
+  .buy-now-button {
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #D62C2C;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .buy-now-button:hover {
+    background-color:#f76868;
   }
