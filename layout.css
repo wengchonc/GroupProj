@@ -122,7 +122,10 @@ align-items: center;
     background-color: var(--lake-blue);
     transition: all 0.5s ease;
     position: absolute;
-    top: 100px;
+    top: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .search-container:hover .search-recom{
@@ -131,6 +134,18 @@ align-items: center;
     height: 130px;
     transition: all 0.5s ease;
     top: 100px;
+}
+
+.search-recom .rectangle {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.search-recom .rectangle:hover {
+  background-color: #BCCBCC;
 }
 
 .header1 {
