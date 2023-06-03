@@ -135,12 +135,14 @@ align-items: center;
 }
 
 .search-container:hover .search-recom{
-    opacity: 1;
-    width: 340px;
-    height: 130px;
-    transition: all 0.5s ease;
-    top: 100px;
-    justify-content: space-evenly;
+  background-color: #BCCBCC;
+  opacity: 1;
+  width: 340px;
+  height: 130px;
+  transition: all 0.5s ease;
+  top: 100px;
+  justify-content: space-evenly;
+  border-radius: 10px;
 }
 
 .search-recom .rectangle {
@@ -148,7 +150,7 @@ align-items: center;
   height: 20px;
   background-color: rgb(255, 255, 255);
   margin: 5px;
-  transition: background-color 0.3s ease;
+  transition: 0.3s ease;
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -157,7 +159,7 @@ align-items: center;
 }
 
 .search-recom .rectangle:hover {
-  background-color: #BCCBCC;
+  background-color: var(--lake-blue);
 }
 
 .search-recom .rectangle-text {
@@ -374,6 +376,9 @@ align-items: center;
 }
 
 .header3 {
+  position:relative;
+  bottom: 0;
+  width: 100%;
   background-color: var(--lake-blue); 
   padding: 10px;
   text-align: center;
