@@ -28,11 +28,20 @@ body {
     object-fit: cover;
   }
 
-  .square span{
+  .square h1{
     margin-left: 50px;
-    margin-bottom: 570px;
+    margin-bottom: 400px;
     font-family: "Futura PT", sans-serif;
     font-size: 40px;
     font-weight: bold;
     flex-grow: 1;
+  }
+
+  .square h5{
+    margin-top: auto;
+    margin-bottom: 450px;
+    margin-right: 50px;
+    font-family: "Futura PT", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
   }
