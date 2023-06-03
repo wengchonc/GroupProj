@@ -9,15 +9,30 @@ body {
     overflow-x:hidden;
     overflow-y: auto;
   }
-
-  .square-container {
-    margin-top: 20px; /* Adjust the margin-top value as desired */
-  }
   
   .square {
-    width: 100%;
-    height: 300px;
-    background-color: red; /* Change the background color as desired */
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    margin: 200px auto;
+    width: 1800px;
+    height: 700px;
+    background-color: #BCCBCC;
+    border-radius: 30px;
   }
   
-  
+  .square img {
+    margin-left: 50px;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .square span{
+    margin-left: 50px;
+    margin-bottom: 570px;
+    font-family: "Futura PT", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    flex-grow: 1;
+  }
