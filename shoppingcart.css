@@ -1,6 +1,8 @@
 .unavailable-cart{
-    margin-bottom: 372px;
-    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 420px;
+    margin-top: 412px;
     font-family: "Futura PT", serif;
     font-size: 35px;
     font-weight:480;

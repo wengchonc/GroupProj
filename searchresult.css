@@ -10,7 +10,7 @@ body {
   overflow-y: auto;
 }
 
-p{
+.search-result-text{
   display: flex;
   font-size: 35px;
   font-family: "Futura PT", serif;
