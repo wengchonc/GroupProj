@@ -222,3 +222,26 @@ body {
     margin-top: 15px;
     margin-bottom: 5px;
   }
+
+  .product1-header3 {
+    position:relative;
+    bottom:0;
+    width: 100%;
+    background-color: var(--light-yellow); 
+    padding: 10px;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .product1-header3 h1 {
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    font-family: "Futura PT", serif;
+    font-weight: 400;
+    color: black;
+  }
