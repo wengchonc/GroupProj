@@ -223,7 +223,7 @@ body {
     margin-bottom: 5px;
   }
 
-  .product1-header3 {
+  .product1-footer {
     position:relative;
     bottom:0;
     width: 100%;
@@ -235,7 +235,7 @@ body {
     justify-content: end;
   }
   
-  .product1-header3 h1 {
+  .product1-footer h1 {
     justify-content: end;
     align-items: center;
     text-align: center;

@@ -33,4 +33,7 @@ function clearCart() {
 function checkout() {
     window.location.href = "checkout.html";
   }
-  
+
+function back() {
+    window.location.href = "shoppingcart2.html";
+  }
