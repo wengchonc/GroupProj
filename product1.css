@@ -63,8 +63,8 @@ body {
   .circle {
     margin-right: 10px;
     display: inline-block;
-    width: 35px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     border-radius: 100%;
     background-color: green;
   }
