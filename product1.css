@@ -96,11 +96,11 @@ body {
   }
 
   .circle-text .circle:first-child {
-    margin-left: 0; /* Remove the left margin of the first circle */
+    margin-left: 0; 
   }
   
   .circle-text .circle:last-child {
-    margin-right: 0; /* Remove the right margin of the last circle */
+    margin-right: 0;
   }
 
   .quantity-box {
