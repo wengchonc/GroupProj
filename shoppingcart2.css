@@ -125,3 +125,11 @@
     border-radius: 10px;
     cursor: pointer;
   }
+
+  .clear-cart-button:hover{
+    background-color: #d4ccb8;
+  }
+
+  .checkout-button:hover{
+    background-color: #f76868;
+  }

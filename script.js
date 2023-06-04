@@ -21,6 +21,11 @@ function updateCartQuantity() {
     });
   });
 
+function buyNow() {
+    window.location.href = "shoppingcart2.html";
+  }
+
+
 function clearCart() {
     window.location.href = "shoppingcart.html";
   }
