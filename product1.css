@@ -185,7 +185,8 @@ body {
     justify-content: flex-start;
     padding-left: 60px;
     padding-top: 50px;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: "Futura PT", serif;
   }
 
   .items-container {
