@@ -185,4 +185,41 @@ body {
     padding-top: 50px;
     font-size: 25px;
   }
+
+  .items-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 0 200px;
+    margin-bottom: 50px;
+  }
+  
+  .item-square {
+    width: 300px;
+    height: 300px;
+    background-color: #ECECEC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .item-square img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .item-square h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .item-square p {
+    font-size: 14px;
+    text-align: center;
+  }
   
