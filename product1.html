@@ -50,7 +50,8 @@
       <!--shopping cart icon-->
       <li style="list-style-type: none;">
           <a href="shoppingcart.html">
-            <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+            <i id="cart-icon" class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+            <span class="cart-quantity"></span>
               </a>
               </li>
           </ul>
@@ -74,12 +75,12 @@
       </div>
 
       <div class="quantity-box">
-        <input type="number" min="1" value="1" class="quantity-input">
-        <button class="add-to-cart-button">Add to Cart</button>
-        <button class="buy-now-button">Buy now</button>
+        <input id="quantity-input" type="number" min="1" value="1" class="quantity-input">
+        <button class="add-to-cart-button">Add To Cart</button>
+        <button class="buy-now-button">Buy Now</button>
       </div>
        
     </div>
-
+    <script src="script.js"></script>
 </body>
 </html>
