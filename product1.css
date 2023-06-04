@@ -156,3 +156,26 @@ body {
   .buy-now-button:hover {
     background-color:#f76868;
   }
+
+  .square-2{
+    margin-top: -150px;
+    border-radius: 10px;
+    height: 300px;
+  }
+
+  .square-2 h2{
+    margin-top: -180px;
+    margin-left: 40px;
+    font-family: "Futura PT", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .square-2 p{
+    margin-top: -150px;
+    margin-left: -135px;
+    font-family: "Futura PT", sans-serif;
+    font-size: 20px;
+
+  }
+  
