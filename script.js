@@ -20,3 +20,12 @@ function updateCartQuantity() {
       updateCartQuantity();
     });
   });
+
+function clearCart() {
+    window.location.href = "shoppingcart.html";
+  }
+  
+function checkout() {
+    window.location.href = "checkout.html";
+  }
+  

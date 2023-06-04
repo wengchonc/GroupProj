@@ -8,9 +8,17 @@
 .cart-rectangle-container {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
     padding-top: 60px;
     padding-left: 150px;
+  }
+
+  .cart-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 500px;
   }
 
   .cart-rectangle {
@@ -72,4 +80,48 @@
 
   .second-cart-rectangle {
     margin-top: 40px;
+  }
+
+  .subtotal-container{
+    margin-left: 50px;
+    margin-top: 220px;
+    flex-direction: column;
+  }
+  .subtotal-container span {
+    font-size: 30px;
+    font-family: "Futura PT", sans-serif;
+  }
+
+  .subtotal-container .subtotal {
+    font-size: 60px; 
+    font-weight: bold; 
+    font-family: "Futura PT", sans-serif;
+    margin-left: 600px;
+  }
+  .clear-cart-button{
+    margin-top: 80px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Futura PT", sans-serif;  
+    background-color: #ECE3CC;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .checkout-button{
+    margin-left: 50px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Futura PT", sans-serif;  
+    background-color: #D62C2C;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
   }
