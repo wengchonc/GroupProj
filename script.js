@@ -20,4 +20,3 @@ function updateCartQuantity() {
       updateCartQuantity();
     });
   });
-  
