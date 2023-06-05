@@ -41,3 +41,7 @@ function back() {
 function next() {
     window.location.href = "payment.html";
   }
+
+function paymentBack(){
+    window.location.href = "checkout.html";
+}
