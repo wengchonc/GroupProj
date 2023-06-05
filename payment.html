@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shoppingcart2.css">
+    <script src="script.js"></script>
+    <title>MusicSwopShop</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- nav bar -->
+    <nav>
+      <a href="index.html">  
+      <img src="musicswopshoplogo.png" alt="Logo" class="logo">
+      </a>
+      <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Our Product</a></li>
+            <li><a href="#">Dalby Instrument Repairs</a></li>
+            <li><a href="#">Lovell Amp Repairs</a></li>
+            <li><a href="#">OEM Repair Shop</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+              <!-- hamburger menu -->
+      <div class="menu-icon">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+            <!-- search box -->
+        <div>
+        <ul>
+        <li><div class="search-container">
+        <input type="text" placeholder="Search...">
+        <a href="searchresults.html" class="search-button">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        </a>
+        <div class="search-recom">
+          <a href="searchresults.html" class="rectangle">
+            <span class="rectangle-text">Piano</span>
+          </a>
+          <a href="searchresults.html" class="rectangle">
+            <span class="rectangle-text">Guitar</span>
+          </a>
+        </div></li> 
+    </div>
+    <!--shopping cart icon-->
+    <li style="list-style-type: none;">
+        <a href="shoppingcart.html">
+          <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+            </a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    
+    <p class="available-items-cart">2 items in cart</p>
+
+
+    <div class="cart-container">
+    <div class="cart-rectangle-container">
+        <a href="product1.html" class="cart-rectangle first-cart-rectangle">
+          <div class="cart-inner-content"></div>
+          <div class="cart-inner-square"></div>
+          <span>CASIO AP270BK 
+            DIIGITAL PIANO WITH 
+            BENCH-BLACK</span>
+          </a>
+        
+        <a href="product2.html" class="cart-rectangle second-cart-rectangle">
+            <div class="cart-inner-content"></div>
+            <div class="cart-inner-square"></div>
+            <span>Donner DED-200 PRO Electronic Drum Set 5-Drum 4-Cymbal</span>
+        </a>
+    </div>
+
+    <div class="subtotal-container">
+      <span>Cart Subtotal:</span>
+      <span class="subtotal">$3414.99</span>
+      <button class="clear-cart-button" onclick="clearCart()">Clear Cart</button>
+      <button class="checkout-button" onclick="checkout()">Checkout</button>
+    </div>
+  </div>
+
+  <footer class="cart2-footer">
+    <h1>Copyright © 2023, musicswopshop.</h1>
+  </footer>
+</body>
+</html>
