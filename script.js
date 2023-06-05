@@ -14,7 +14,7 @@ function updateCartQuantity() {
     }
   }
   
-  document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     const addToCartButton = document.querySelector(".add-to-cart-button");
     addToCartButton.addEventListener("click", function() {
       updateCartQuantity();
@@ -38,6 +38,6 @@ function back() {
     window.location.href = "shoppingcart2.html";
   }
 
-function submit() {
+function next() {
     window.location.href = "payment.html";
   }
