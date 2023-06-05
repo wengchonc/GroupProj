@@ -45,3 +45,7 @@ function next() {
 function paymentBack(){
     window.location.href = "checkout.html";
 }
+
+function completePayment(){
+    window.location.href = "completepayment.html";
+}
