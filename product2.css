@@ -24,16 +24,17 @@ body {
     align-items:center;
     justify-content:left;
     margin: 200px auto;
-    width: 1800px;
-    height: 700px;
+    width: 98%;
+    height: 800px;
     background-color: #BCCBCC;
     border-radius: 30px;
+    padding-bottom: 15px;
   }
   
   .square img {
     margin-left: 50px;
-    width: 600px;
-    height: 600px;
+    width: 33%;
+    height: auto;
     object-fit: cover;
   }
 
@@ -41,7 +42,7 @@ body {
     margin-top: -550px;
     margin-left: 50px;
     font-family: "Futura PT", sans-serif;
-    font-size: 38px;
+    font-size: 40px;
     font-weight: bold;
   }
 
@@ -105,8 +106,8 @@ body {
 
   .quantity-box {
     position: static;
-    margin-top: 400px;
-    margin-left: 200px;
+    margin-top: 20%;
+    margin-left: 480px;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
@@ -114,16 +115,17 @@ body {
   }
   
   .quantity-input {
-    width: 80px;
+    width: 50%;
     height: 40px;
     padding: 5px;
     font-size: 25px;
     border: none;
+    margin-right: 10px;
   }
   
   .add-to-cart-button {
     margin-top: 80px;
-    width: 400px;
+    width: 300%;
     height: 50px;
     padding: 8px 16px;
     font-size: 25px;
@@ -141,7 +143,7 @@ body {
 
   .buy-now-button {
     margin-top: 10px;
-    width: 400px;
+    width: 300%;
     height: 50px;
     padding: 8px 16px;
     font-size: 25px;
@@ -193,13 +195,12 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
-    padding: 0 100px;
     margin-bottom: 50px;
   }
   
   .item-square {
-    width: 300px;
-    height: 350px;
+    width: 20%;
+    height: 420px;
     background-color:var(--lighter-lake-blue);
     border-radius: 10px;
     display: flex;
@@ -207,11 +208,12 @@ body {
     align-items: center;
     justify-content: space-evenly;
   }
-  
+
   .item-square img {
-    width: 250px;
-    height: 230px;
+    width: 80%;
+    height: auto;
     object-fit: cover;
+    margin-left: 10%;
     margin-bottom: 10px;
     border-radius: 10px;
   }

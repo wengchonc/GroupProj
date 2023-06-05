@@ -24,8 +24,8 @@ body {
     align-items:center;
     justify-content:left;
     margin: 200px auto;
-    width: 95%;
-    height: auto;
+    width: 98%;
+    height: 800px;
     background-color: #BCCBCC;
     border-radius: 30px;
     padding-bottom: 15px;
@@ -106,9 +106,8 @@ body {
 
   .quantity-box {
     position: static;
-    margin-top: 30%;
-    margin-left: 200px;
-    margin-right: 10px;
+    margin-top: 20%;
+    margin-left: 480px;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
@@ -201,7 +200,7 @@ body {
   
   .item-square {
     width: 20%;
-    height: 350px;
+    height: 420px;
     background-color:var(--lighter-lake-blue);
     border-radius: 10px;
     display: flex;
